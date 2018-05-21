@@ -1,0 +1,43 @@
+{
+    "name": "budgie",
+    "version": "1.0.0",
+    "description": "Budgie, Your flexible budget planner.",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "electron-toolkit": "electron ./node_modules/electron-toolkit",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Liam Gaskell",
+    "license": "ISC",
+    "dependencies": {
+        "jquery": "^3.3.1"
+    },
+    "devDependencies": {
+        "electron": "^2.0.1",
+        "electron-builder": "^20.13.4",
+        "electron-toolkit": "^1.0.24"
+    },
+    "build": {
+        "appId": "com.electron.budgie",
+        "copyright": "Copyright © 2018 Liam Gaskell",
+        "productName": "Budgie",
+        "electronVersion": "2.0.1",
+        "asar": true,
+        "directories": {
+            "app": "C:\\Users\\Liam\\Desktop\\budget_planner",
+            "output": "dist"
+        },
+        "win": {
+            "target": [
+                {
+                    "target": "nsis",
+                    "arch": [
+                        "x64"
+                    ]
+                }
+            ]
+        }
+    }
+}
