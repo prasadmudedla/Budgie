@@ -15,8 +15,8 @@
         "jquery": "^3.3.1"
     },
     "devDependencies": {
+        "electron-builder": "^20.15.1",
         "electron": "^2.0.2",
-        "electron-builder": "^20.13.4",
         "electron-toolkit": "^1.0.24"
     },
     "build": {
