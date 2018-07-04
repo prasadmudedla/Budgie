@@ -16,7 +16,7 @@
     },
     "devDependencies": {
         "electron-builder": "^20.18.0",
-        "electron": "^2.0.3",
+        "electron": "^2.0.4",
         "electron-toolkit": "^1.0.24"
     },
     "build": {
