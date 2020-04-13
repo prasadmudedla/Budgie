@@ -12,7 +12,7 @@
     "author": "Liam Gaskell",
     "license": "ISC",
     "dependencies": {
-        "jquery": "^3.3.1"
+        "jquery": "^3.5.0"
     },
     "devDependencies": {
         "electron-builder": "^20.27.1",
